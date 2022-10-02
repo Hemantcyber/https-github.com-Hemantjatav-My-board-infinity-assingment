@@ -1,1 +1,1 @@
-console.log('external script')
+console.log ('external script')
