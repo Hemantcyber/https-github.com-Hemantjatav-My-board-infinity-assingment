@@ -1,0 +1,43 @@
+<style>
+    #clock{
+        position: relative;
+        background: url(clock_face.png) no-repeat;
+        width: 316px;
+        height: 316px;
+    }
+#clock > #hh,#mh,#sh{
+    position:absolute;
+    transform-origin:bottom;
+    background: #0099CC;
+    border-radius: 7px;
+    opacity: 1;
+}
+#clock > #hh{
+    width: 6px;
+    height: 120px;
+    top: 68;
+    left: 152;
+}
+#clock > #mh{
+    width: 6px;
+    height: 120px;
+    top: 18px;
+    left: 155px;
+}
+#clock > #sh{
+    width: 2px;
+    height: 130px;
+    top: 29px;
+    left: 57px;
+    opacity: .3;
+}
+
+</style>
+<script>
+
+</script>
+<div id="clock">
+    <div id="hh"></div>
+    <div id="mh"></div>
+    <div id="sh"></div>
+</div>
