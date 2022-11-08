@@ -7,14 +7,14 @@ body{
     background-color: #32312f;
     font-family: sans-serif;
 }
-.table-containerL{
+.table-container{
     padding: 0 10%;
     margin: 40px auto 0;
 }
 .heading{
     font-size: 40px;
     text-align: center;
-    color: #f1f1f1;
+    color: #c8e90c;
     margin-bottom: 40px;
 }
 .table{
@@ -22,13 +22,13 @@ body{
     border-collapse: collapse;
 }
 .table thead{
-    background-color: #ee2828;
+    background-color: #fc2206;
 }
 .table thead tr th{
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.35px;
-    color: #ffffff;
+    color: #000000;
     opacity: 1;
     padding: 12px;
     vertical-align: top;
@@ -38,7 +38,7 @@ body{
     font-size: 14px;
     letter-spacing: 0.35px;
     font-weight: normal;
-    background-color: #3c3f44;
+    background-color: #5f6579;
     padding: 8px;
     text-align: center;
     border: 1px solid #dee2d685;
