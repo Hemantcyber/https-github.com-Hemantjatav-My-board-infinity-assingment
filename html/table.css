@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #32312f;
+    background-color: #ffffff;
     font-family: sans-serif;
+    background-image: ;
 }
 .table-container{
     padding: 0 10%;
@@ -14,15 +15,29 @@ body{
 .heading{
     font-size: 40px;
     text-align: center;
-    color: #c8e90c;
-    margin-bottom: 40px;
+    color: #0a0a07;
+    margin-bottom: 4px;
+}
+.heading2{
+    font-size: 30px;
+    text-align: center;
+    color: aqua;
+    margin-bottom: 20px;
 }
 .table{
     width: 100%;
     border-collapse: collapse;
 }
 .table thead{
-    background-color: #fc2206;
+    background-color: #0f88eb;
+}
+.top{
+    font-size: 40px;
+    font-weight: 60;
+    color: #ca1111;
+    padding: 8px;
+    opacity: 1;
+    color: #0a131a;
 }
 .table thead tr th{
     font-size: 14px;
@@ -32,29 +47,29 @@ body{
     opacity: 1;
     padding: 12px;
     vertical-align: top;
-    border: 1px solid #dee2d685;
+    border: 1px solid #090a0785;
 }
 .table tbody tr td{
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.35px;
     font-weight: normal;
-    background-color: #5f6579;
+    background-color: #80bcdf;
     padding: 8px;
     text-align: center;
-    border: 1px solid #dee2d685;
+    border: 1px solid #05050485;
 }
 .table .text_open{
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 00.35px;
-    color: #ff1046;
+    color: #ffffff;
 }
 .table tbody tr td .btn{
     width: 130px;
     text-decoration: none;
     line-height: 35px;
     display: inline-block;
-    background-color: #ff1046;
+    background-color: #f10000;
     font-weight: medium;
     color: #ffffff;
     text-align: center;

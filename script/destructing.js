@@ -128,12 +128,23 @@ option==="coffee"?console.log("i want coffee"):console.log("i want tea")
    })(21);
    
    
-   
-   var aa = 1;  
-   var bb = 0;  
-   while (aa <= 3)  
-   {  
-      aa++;  
-      bb += aa * 2;  
-      print(bb);
-   }
+
+const obj1 = {first: 20, second: 30, first: 50 ,third:50};
+console.log(obj1);
+
+
+var q=1;
+var d=0;
+while (q <= 5)
+{
+    q++;
+    d += q *  2;
+    console.log(d);
+}
+var r = Math.max();
+var t = Math.min();
+console.log(r)
+console.log(t)
+console.log(parseInt("Hello123"));
+console.log(NaN===NaN)
+console.log(typeof(NaN))
